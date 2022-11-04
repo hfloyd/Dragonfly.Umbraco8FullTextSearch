@@ -13,9 +13,14 @@
     <PackageProjectUrl>https://github.com/hfloyd/Dragonfly.Umbraco8FullTextSearch</PackageProjectUrl>
     <RepositoryUrl>https://github.com/hfloyd/Dragonfly.Umbraco8FullTextSearch</RepositoryUrl>
     <PackageId>Dragonfly.Umbraco8FullTextSearch</PackageId>
- 	<Version>0.0.1</Version>
+ 	<Version>0.1.0</Version>
     <AssemblyName>Dragonfly.Umbraco8FullTextSearch</AssemblyName>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="UmbracoCms.Core" Version="8.6.0" PrivateAssets="All"  />
+    <PackageReference Include="UmbracoCms.Web" Version="8.6.0" PrivateAssets="All" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Configuration" />
